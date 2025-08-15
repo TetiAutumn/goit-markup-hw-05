@@ -676,7 +676,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.terms-checkbox-label > a {
+.user-privacy-link {
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -701,6 +701,11 @@ img {
   cursor: pointer;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.accepted-checkbox:checked + .accepted-checkbox-custom > span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .accepted-checkbox-custom {
   display: inline-flex;
