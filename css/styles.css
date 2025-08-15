@@ -521,6 +521,9 @@ img {
   text-align: center;
   color: #fff;
 }
+.footer-sbs-button:hover {
+  background: #404bbf;
+}
 .footer-icon-sbs {
   fill: #fff;
 }
@@ -558,9 +561,19 @@ img {
   height: 24px;
   stroke-width: 1px;
   background: #e7e9fc;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-btn-close:hover {
+  border-color: #4d5ae5;
+  background-color: #4d5ae5;
+}
+.modal-btn-close:hover > svg {
+  fill: #fff;
+}
+
 .modal-btn-close-icon {
   fill: #2e2f42;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 fieldset {
   border: none;
@@ -597,6 +610,7 @@ fieldset {
   height: 40px;
   padding: 8px 16px;
   padding-left: 38px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus {
   border-color: #4d5ae5;
@@ -620,6 +634,7 @@ fieldset {
   top: 8px;
   left: 16px;
   fill: #2e2f42;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .terms-checkbox-label {
   margin-left: 8px;
@@ -652,6 +667,7 @@ fieldset {
   color: #fff;
   margin: 0 auto;
   display: block;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .accepted-checkbox {
   display: none;
